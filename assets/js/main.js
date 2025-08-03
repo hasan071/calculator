@@ -31,9 +31,7 @@ buttons.forEach(function (el){
             else {
                     input.value += el.innerHTML
             }
-
             
-
             buttons.forEach(function(ell){
                 ell.style.border = "1px solid white"
             })
@@ -51,23 +49,5 @@ equal.onclick = function(){
     buttons.forEach(function(ell){
                 ell.style.border = "1px solid white"
             })
-            el.style.border = "3px solid rgb(0, 180, 180)"
+            
         }
-/*
-equal.forEach(function(el){
-    el.onclick = function(){
-        if ( el==document.querySelectorAll(".op") ){
-            input.value = ((parseFloat(el.innerHTML))*(3.14/180))
-        }
-    }
-})
-*/
-// console.log(document.querySelectorAll(".Mbt")[0]);
-// console.log(document.querySelectorAll(".Mbt")[1]);
-// console.log(document.querySelectorAll(".eq")[0]);
-// let tans = tan(45)
-// console.log(document.querySelectorAll(".op"));
-// console.log(document.querySelectorAll(".sin"));
-
-
-
